@@ -1,0 +1,40 @@
+*{
+    margin: 0%;
+}
+.page-wrapper{
+    width: 60%;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 1%;
+}
+.header-wrapper{
+    width: 100%;
+    border: 5px solid rgb(1, 235, 235);
+    display: flex;
+    border-radius: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.box{
+    width: 25%;
+    padding-bottom:8%;
+    padding-top: 8%;
+    margin: 2%;
+    background-color: rgb(196,196,196);
+    text-align: center;
+    font-weight: 900;
+    font-size: 200%;
+    border-radius: 10px;
+}
+@media screen and (max-width:768px) {
+    .header-wrapper{
+        flex-direction: column;
+        
+    }
+    .box{
+        width:70%;
+        margin-top: 10%;
+        margin-left:15%;
+    }
+    
+}
